@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Punto 1</title>
+
+    <style>
+        #Actual{
+            display: inline-block;
+            padding: 0em 2em 2em 2em;
+            border: 5px solid rgb(218, 214, 5);
+        }
+        #Actual p{
+            margin: 0em 0em;
+        }
+
+
+        #Propuesto{
+            
+            padding: 0em 2em 2em 2em;
+            float: right;
+            border:3px solid red;
+        }
+
+        #Propuesto p{
+            margin: 0em 0em;
+        }
+        
+        #Propuesto #A, #Propuesto #B{ 
+            
+            display: inline-block;
+        }
+       
+        #Propuesto #C, #Propuesto #D{
+            
+            display: inline-block;
+            
+        }
+
+        #Propuesto #A{
+            color: white;
+            background: rgb(92, 182, 159);
+            margin: 0em 0.5em 0.2em 0em;
+            padding: 0em 3.75em 0.6em 0em;
+        }
+        #Propuesto #A ul li a{
+            text-decoration: none;
+            color: white;
+        }
+      
+        #Propuesto #B{
+            margin: 0em 0em 0.5em 0em;
+            padding: 0em 1.3em 0em 1em;
+            background:orange;
+            color:white;
+           
+        }
+      
+
+        #Propuesto #C{
+            color: white;
+            background:rgb(252, 76, 45);
+            margin: 0em 0.5em 0em 0em;
+            padding: 0em 0.3em 0em 0em;
+            
+            
+        }
+        #Propuesto #D {
+            background: white;
+            padding: 0em 0.5em 1em 0em;
+        }
+
+        #a1, #a2{
+            text-align: right;
+        }
+        #a1{
+            padding: 0.2em;
+            display: inline-block;
+            font-size: 67px;
+        }
+        #a3{
+            display: inline-block;
+        }
+        #a4{
+            text-align: right;
+            font-size: 20px;
+        }
+        .texto{
+
+            font-size: 20px;
+        }
+
+        #Propuesto #Cont{
+            margin: 1em;
+            padding: 0.5em;
+            background: black;
+        }
+
+        
+        
+
+        
+        
+     
+       
+        
+       
+
+       
+
+    </style>
+</head>
+<body>
+    
+    <div id="Actual">
+        <nav>
+            <h1>Feactures</h1>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </nav>
+
+        <nav>
+            <p>Important interview </p>
+            <p>3.00 - 4.00</p>
+            <p>December 15</p>
+            
+        </nav>
+
+        <nav>
+            <h1>TODO</h1>
+            <ol>
+                <li>Buil Websities</li>
+                <li>Buil Apps</li>
+                <li>Buil Games</li>
+            </ol>
+        </nav>
+
+        <nav>
+            <img src="Imagen_Tabla/Tabla.jpg">
+            <p>4800</p>
+        </nav>
+
+    </div>
+
+    <div id="Propuesto">
+        <div id="Cont">
+            <nav id="A">
+                <h1>Feactures</h1>
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+            </nav>
+
+            <nav id="B">
+                <p class="texto">Important interview </p>
+                <p id="a2">3.00 - 4.00</p>
+                <p id="a3" class="texto">December</p>
+                <p id="a1">15</p>
+
+                
+                <nav>
+
+                </nav>
+           
+
+            </nav>
+            <nav></nav>
+
+            <nav id="C">
+                <h1 >TODO</h1>
+                <ol>
+                    <li class="texto">Buil Websities</li>
+                    <li class="texto">Buil Apps</li>
+                    <li class="texto">Buil Games</li>
+                </ol>
+            </nav>
+
+            <nav id="D">
+                <img src="Imagen_Tabla/Tabla.jpg" width="209px" height="113px">
+                <p id="a4">4800</p>
+            </nav>
+        </div>
+    </div>
+    
+</body>
+</html>
